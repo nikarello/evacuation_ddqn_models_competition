@@ -1,0 +1,60 @@
+Using device: cuda
+[vost#0:0/libx264 @ 0000019504af9200] Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[vost#0:0/libx264 @ 0000028f575c9200] Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[vost#0:0/libx264 @ 00000243957b9200] Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[vost#0:0/libx264 @ 0000024857419200] Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+EP   1 | time 11.47s | reward  -6445.2 | evac 234 | died 246 | eps 0.947 | lr 0.00028 | loss  0.188
+EP   2 | time  8.81s | reward   -103.5 | evac 169 | died 311 | eps 0.895 | lr 0.00026 | loss  0.071
+EP   3 | time  9.62s | reward   -714.8 | evac 145 | died 335 | eps 0.848 | lr 0.00024 | loss  0.128
+EP   4 | time  9.72s | reward  12341.1 | evac 320 | died 160 | eps 0.798 | lr 0.00023 | loss  0.155
+EP   5 | time  9.27s | reward  11986.1 | evac 241 | died 239 | eps 0.754 | lr 0.00021 | loss  0.220
+EP   6 | time  9.45s | reward  10747.3 | evac 256 | died 224 | eps 0.714 | lr 0.00020 | loss  0.308
+EP   7 | time 10.57s | reward  22185.4 | evac 291 | died 189 | eps 0.671 | lr 0.00019 | loss  0.424
+EP   8 | time  9.13s | reward  18992.9 | evac 282 | died 198 | eps 0.635 | lr 0.00017 | loss  0.553
+EP   9 | time  9.67s | reward  28258.9 | evac 368 | died 112 | eps 0.599 | lr 0.00016 | loss  0.624
+EP  10 | time 10.28s | reward  31195.9 | evac 315 | died 165 | eps 0.564 | lr 0.00015 | loss  0.756
+EP  11 | time  9.70s | reward  28328.4 | evac 344 | died 136 | eps 0.535 | lr 0.00014 | loss  0.854
+EP  12 | time  9.63s | reward  30421.8 | evac 370 | died 110 | eps 0.506 | lr 0.00013 | loss  0.862
+EP  13 | time  9.84s | reward  30014.8 | evac 347 | died 133 | eps 0.480 | lr 0.00012 | loss  1.095
+EP  14 | time  9.77s | reward  36245.1 | evac 353 | died 127 | eps 0.454 | lr 0.00012 | loss  1.165
+EP  15 | time 10.21s | reward  39040.9 | evac 376 | died 104 | eps 0.429 | lr 0.00011 | loss  1.219
+EP  16 | time 10.04s | reward  35563.1 | evac 381 | died  99 | eps 0.407 | lr 0.00010 | loss  1.378
+EP  17 | time 11.68s | reward  44796.2 | evac 368 | died 112 | eps 0.382 | lr 0.00009 | loss  1.473
+EP  18 | time 10.53s | reward  42508.9 | evac 361 | died 119 | eps 0.360 | lr 0.00009 | loss  1.685
+EP  19 | time 11.79s | reward  53888.1 | evac 413 | died  67 | eps 0.338 | lr 0.00008 | loss  1.742
+EP  20 | time 11.33s | reward  45759.5 | evac 393 | died  87 | eps 0.319 | lr 0.00008 | loss  2.033
+EP  21 | time 12.50s | reward  46491.3 | evac 397 | died  83 | eps 0.301 | lr 0.00007 | loss  2.219
+EP  22 | time 11.81s | reward  45385.9 | evac 409 | died  71 | eps 0.285 | lr 0.00007 | loss  2.229
+EP  23 | time 11.25s | reward  46457.9 | evac 416 | died  64 | eps 0.270 | lr 0.00006 | loss  2.534
+EP  24 | time 11.65s | reward  53438.9 | evac 424 | died  56 | eps 0.255 | lr 0.00006 | loss  2.301
+EP  25 | time 11.75s | reward  48192.9 | evac 418 | died  62 | eps 0.241 | lr 0.00005 | loss  2.392
+EP  26 | time 13.16s | reward  51241.6 | evac 408 | died  72 | eps 0.227 | lr 0.00005 | loss  2.487
+EP  27 | time 13.42s | reward  52119.9 | evac 388 | died  92 | eps 0.214 | lr 0.00005 | loss  2.416
+EP  28 | time 11.75s | reward  46531.0 | evac 385 | died  95 | eps 0.203 | lr 0.00004 | loss  2.386
+EP  29 | time 12.83s | reward  54670.8 | evac 407 | died  73 | eps 0.190 | lr 0.00004 | loss  2.167
+EP  30 | time 11.88s | reward  42737.0 | evac 387 | died  93 | eps 0.180 | lr 0.00004 | loss  2.273
+EP  31 | time 12.29s | reward  45434.9 | evac 381 | died  99 | eps 0.169 | lr 0.00004 | loss  2.031
+EP  32 | time 12.34s | reward  47159.6 | evac 388 | died  92 | eps 0.160 | lr 0.00003 | loss  1.846
+EP  33 | time 14.21s | reward  41935.5 | evac 381 | died  99 | eps 0.150 | lr 0.00003 | loss  1.708
+EP  34 | time 12.89s | reward  35790.2 | evac 386 | died  94 | eps 0.143 | lr 0.00003 | loss  1.652
+EP  35 | time 13.75s | reward  32508.6 | evac 379 | died 101 | eps 0.135 | lr 0.00003 | loss  1.617
+EP  36 | time 14.47s | reward  34843.4 | evac 368 | died 112 | eps 0.127 | lr 0.00003 | loss  1.432
+EP  37 | time 14.76s | reward  35149.4 | evac 407 | died  73 | eps 0.120 | lr 0.00002 | loss  1.372
+EP  38 | time 15.54s | reward  36901.6 | evac 384 | died  96 | eps 0.113 | lr 0.00002 | loss  1.322
+EP  39 | time 13.82s | reward  31064.7 | evac 366 | died 114 | eps 0.107 | lr 0.00002 | loss  1.248
+EP  40 | time 10.13s | reward  32741.4 | evac 381 | died  99 | eps 0.101 | lr 0.00002 | loss  1.140
+EP  41 | time  9.34s | reward  40807.1 | evac 391 | died  89 | eps 0.095 | lr 0.00002 | loss  1.267
+EP  42 | time 10.36s | reward  39218.9 | evac 400 | died  80 | eps 0.090 | lr 0.00002 | loss  1.084
+EP  43 | time 11.12s | reward  37751.7 | evac 388 | died  92 | eps 0.085 | lr 0.00002 | loss  1.060
+EP  44 | time 12.07s | reward  38321.6 | evac 379 | died 101 | eps 0.080 | lr 0.00002 | loss  1.036
+EP  45 | time 15.75s | reward  42206.1 | evac 392 | died  88 | eps 0.075 | lr 0.00001 | loss  0.964
+EP  46 | time 12.21s | reward  30591.2 | evac 370 | died 110 | eps 0.071 | lr 0.00001 | loss  0.816
+EP  47 | time 14.36s | reward  39008.5 | evac 393 | died  87 | eps 0.067 | lr 0.00001 | loss  0.828
+EP  48 | time 10.02s | reward  35247.9 | evac 388 | died  92 | eps 0.064 | lr 0.00001 | loss  0.892
+EP  49 | time  9.09s | reward  30794.7 | evac 369 | died 111 | eps 0.060 | lr 0.00001 | loss  0.818
+EP  50 | time  9.52s | reward  29158.7 | evac 356 | died 124 | eps 0.057 | lr 0.00001 | loss  0.807
+[done] metrics saved -> C:\Users\nikmi\OneDrive\Рабочий стол\pyPROJECT\ДИПЛОМ\PROGS\full_jaga_jaga\liders_check\leaders_2_DuelingDDQNPrioritized.csv
+[done] video saved -> videos\DuelingDDQNPrioritized_env01.mp4
+[done] video saved -> videos\DuelingDDQNPrioritized_env02.mp4
+[done] video saved -> videos\DuelingDDQNPrioritized_env03.mp4
+[done] video saved -> videos\DuelingDDQNPrioritized_env04.mp4

@@ -1,0 +1,41 @@
+{
+  "ALGORITHM": "DuelingDDQN",
+  "GRID_SIZE": 40,
+  "VIEW_SIZE": 7,
+  "INPUT_CHANNELS": 6,
+  "NUM_EPISODES": 50,
+  "MAX_STEPS_PER_EPISODE": 300,
+  "NUM_ENVS": 10,
+  "BATCH_SIZE": 512,
+  "LEARNING_RATE": 0.0003,
+  "GAMMA": 0.99,
+  "MEMORY_SIZE": 1000000,
+  "EPSILON_START": 1.0,
+  "EPSILON_MIN": 0.01,
+  "EPSILON_DECAY": 0.998,
+  "N_ATOMS": 24,
+  "TAU_EMBED_DIM": 32,
+  "PER_ALPHA": 0.6,
+  "PER_BETA_START": 0.4,
+  "PER_BETA_FRAMES": 4000,
+  "TARGET_UPDATE_FREQ": 1,
+  "AGENT_SPECS": [
+    [
+      30,
+      3
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      6,
+      1
+    ]
+  ],
+  "NUM_LEADERS": 2,
+  "LEADER_SIZE": 3,
+  "LEADER_SPEED": 1,
+  "METRICS_CSV": "liders_check\\leaders_2_DuelingDDQN.csv",
+  "VIDEO_PATH": "liders_check\\leaders_2_DuelingDDQN.mp4"
+}

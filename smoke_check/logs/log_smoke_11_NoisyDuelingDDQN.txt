@@ -1,0 +1,12 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\main.py", line 50, in <module>
+    envs = [Environment(cfg["GRID_SIZE"],
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\main.py", line 50, in <listcomp>
+    envs = [Environment(cfg["GRID_SIZE"],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\environment.py", line 35, in __init__
+    self.size[i]=sz/5.; self.speed[i]=float(sz); i+=1
+                                                 ^
+KeyboardInterrupt

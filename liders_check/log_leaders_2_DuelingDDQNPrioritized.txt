@@ -1,0 +1,20 @@
+Using device: cuda
+EP   1 | time 10.00s | reward   3789.2 | evac 217 | died 263 | eps 0.095 | lr 0.00001 | loss  0.256
+[done] metrics saved -> C:\Users\nikmi\OneDrive\Рабочий стол\pyPROJECT\ДИПЛОМ\PROGS\full_jaga_jaga\liders_check\leaders_2_DuelingDDQNPrioritized.csv
+Traceback (most recent call last):
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\main.py", line 56, in <module>
+    trainer.train()
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\algorithms\base_trainer.py", line 205, in train
+    self._plot_metrics()
+  File "C:\Users\nikmi\OneDrive\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\pyPROJECT\\u0414\u0418\u041f\u041b\u041e\u041c\PROGS\full_jaga_jaga\algorithms\base_trainer.py", line 274, in _plot_metrics
+    plt.show()
+  File "C:\Users\nikmi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\matplotlib\pyplot.py", line 612, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikmi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\matplotlib\backend_bases.py", line 3553, in show
+    cls.mainloop()
+  File "C:\Users\nikmi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\matplotlib\backends\_backend_tk.py", line 520, in start_main_loop
+    first_manager.window.mainloop()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
