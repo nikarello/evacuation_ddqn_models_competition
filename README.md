@@ -1,6 +1,9 @@
 # evacuation_ddqn_models_competition
 Сравнение Dueling DDQN, QRDQN, Prioritized и Noisy DQN на задаче эвакуации агентов
 
+## ⚙️ Структура проекта
+![class_interaction_graph](https://github.com/user-attachments/assets/d55ef0ab-d875-45bc-bee1-979b03cab498)
+
 
 ## 🚀 Запуск проекта
 
